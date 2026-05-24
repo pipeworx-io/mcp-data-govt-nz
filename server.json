@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/data-govt-nz",
+  "title": "Data Govt Nz",
+  "description": "data.govt.nz CKAN MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/data-govt-nz",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-data-govt-nz",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/data-govt-nz/mcp"
+    }
+  ]
+}
