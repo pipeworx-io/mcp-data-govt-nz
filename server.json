@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/data-govt-nz",
   "title": "Data Govt Nz",
   "description": "data.govt.nz CKAN MCP.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/data-govt-nz",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-data-govt-nz",
