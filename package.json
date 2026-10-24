@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-govt-nz",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "data.govt.nz CKAN MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-72ce92e5ca014f9015dcdb69a95e2b7a05662f9760cea35d861dec7e4299cf7f",
-    "sourceCommit": "8355bf3d1eece256a62a89dba2278e7a77bebe07"
+    "sourceHash": "v1-f6e348626bad10e25163d3577e0be982ffae47420ac0a1d08e25df69461af84d",
+    "sourceCommit": "01241619b78233fd55d0e3612331499a63f03ae7"
   }
 }
