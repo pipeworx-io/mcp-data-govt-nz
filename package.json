@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-data-govt-nz",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "data.govt.nz CKAN MCP.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-data-govt-nz": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-govt-nz"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-data-govt-nz.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/data-govt-nz",
   "pipeworx": {
-    "sourceHash": "v1-f6e348626bad10e25163d3577e0be982ffae47420ac0a1d08e25df69461af84d",
-    "sourceCommit": "01241619b78233fd55d0e3612331499a63f03ae7"
+    "mode": "gateway",
+    "slug": "data-govt-nz",
+    "gatewaySlug": "data-govt-nz",
+    "sourceHash": "v1-92c6ae8f4e712ba6b474eb21e5887467f30f0c4a76115ae9736288fc65b56fd6",
+    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
   }
 }
